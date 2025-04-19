@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <section class="section" data-section="0">
+        <div class="content">
+            <h1 class="title">Welcome to alishojaeix  World</h1>
+            <p class="subtitle">We create amazing experiences</p>
+        </div>
+    </section>
+
+    <section class="section" data-section="1">
+        <div class="content">
+            <div class="animated-div" data-animation="slide-up">
+                <h2>Creative Solutions</h2>
+                <p>Innovative ideas for modern problems</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" data-section="2">
+        <div class="content">
+            <div class="animated-div" data-animation="scale">
+                <h2>Dynamic Design</h2>
+                <p>Beautiful and functional interfaces</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" data-section="3">
+        <div class="content">
+            <div class="animated-div" data-animation="rotate">
+                <h2>Interactive Experience</h2>
+                <p>Engaging user interactions</p>
+            </div>
+        </div>
+    </section><br>
+    <br>
+    
+    <section class="section pricing-section" data-section="4">
+        <div class="pricing-container">
+            <h1 class="section-title">Website Development Plans</h1>
+            <p class="section-subtitle">Choose the perfect plan for your business</p>
+            
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card basic">
+                    <div class="card-header">
+                        <h3>Basic Website</h3>
+                        <div class="price">
+                            <span class="amount">$299</span>
+                            <span class="period">/one-time</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Responsive Design</li>
+                        <li>✓ Up to 5 Pages</li>
+                        <li>✓ Basic SEO Setup</li>
+                        <li>✓ Contact Form</li>
+                        <li>✓ 1 Month Support</li>
+                        <li>✓ Basic Analytics</li>
+                    </ul>
+                    <button class="order-button">Order Now</button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="pricing-card premium">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Premium Website</h3>
+                        <div class="price">
+                            <span class="amount">$599</span>
+                            <span class="period">/one-time</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Everything in Basic</li>
+                        <li>✓ Up to 10 Pages</li>
+                        <li>✓ Advanced SEO</li>
+                        <li>✓ Custom Animations</li>
+                        <li>✓ 3 Months Support</li>
+                        <li>✓ Advanced Analytics</li>
+                        <li>✓ Social Media Integration</li>
+                        <li>✓ Blog Setup</li>
+                    </ul>
+                    <button class="order-button">Order Now</button>
+                </div>
+
+                <!-- VIP Plan -->
+                <div class="pricing-card vip">
+                    <div class="card-header">
+                        <h3>VIP E-commerce</h3>
+                        <div class="price">
+                            <span class="amount">$999</span>
+                            <span class="period">/one-time</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Everything in Premium</li>
+                        <li>✓ Unlimited Pages</li>
+                        <li>✓ Full E-commerce Setup</li>
+                        <li>✓ Payment Gateway Integration</li>
+                        <li>✓ 6 Months Support</li>
+                        <li>✓ Advanced Security</li>
+                        <li>✓ Product Management System</li>
+                        <li>✓ Order Tracking System</li>
+                        <li>✓ Customer Dashboard</li>
+                    </ul>
+                    <button class="order-button">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee-container">
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <span>IN DEVELOPMENT</span>
+                <span>COMING SOON</span>
+                <span>STAY TUNED</span>
+                <span>IN DEVELOPMENT</span>
+                <span>COMING SOON</span>
+                <span>STAY TUNED</span>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+
+
